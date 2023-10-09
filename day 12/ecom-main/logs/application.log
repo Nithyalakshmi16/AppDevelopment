@@ -1,0 +1,320 @@
+2023-10-09T10:26:56.369+05:30  INFO 21444 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 21444 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:26:56.381+05:30  INFO 21444 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:26:56.456+05:30  INFO 21444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:26:56.457+05:30  INFO 21444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:26:58.036+05:30  INFO 21444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:26:58.128+05:30  INFO 21444 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:26:59.056+05:30  INFO 21444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:26:59.073+05:30  INFO 21444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:26:59.074+05:30  INFO 21444 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:26:59.183+05:30  INFO 21444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:26:59.184+05:30  INFO 21444 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2725 ms
+2023-10-09T10:26:59.314+05:30 ERROR 21444 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:26:59.349+05:30  INFO 21444 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:26:59.373+05:30  WARN 21444 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:26:59.389+05:30  INFO 21444 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:26:59.416+05:30 ERROR 21444 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
+2023-10-09T10:27:28.099+05:30  INFO 2372 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 2372 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:27:28.102+05:30  INFO 2372 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:27:28.168+05:30  INFO 2372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:27:28.168+05:30  INFO 2372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:27:29.698+05:30  INFO 2372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:27:29.787+05:30  INFO 2372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:27:30.683+05:30  INFO 2372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:27:30.698+05:30  INFO 2372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:27:30.699+05:30  INFO 2372 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:27:30.811+05:30  INFO 2372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:27:30.812+05:30  INFO 2372 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2643 ms
+2023-10-09T10:27:30.955+05:30 ERROR 2372 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:27:30.996+05:30  INFO 2372 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:27:31.021+05:30  WARN 2372 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:27:31.039+05:30  INFO 2372 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:27:31.078+05:30 ERROR 2372 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
+2023-10-09T10:39:22.534+05:30  INFO 6364 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 6364 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:39:22.538+05:30  INFO 6364 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:39:22.607+05:30  INFO 6364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:39:22.607+05:30  INFO 6364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:39:24.471+05:30  INFO 6364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:39:24.559+05:30  INFO 6364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:39:25.491+05:30  INFO 6364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:39:25.506+05:30  INFO 6364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:39:25.506+05:30  INFO 6364 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:39:25.628+05:30  INFO 6364 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:39:25.629+05:30  INFO 6364 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3021 ms
+2023-10-09T10:39:25.802+05:30 ERROR 6364 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:39:25.842+05:30  INFO 6364 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:39:25.867+05:30  WARN 6364 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:39:25.885+05:30  INFO 6364 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:39:25.915+05:30 ERROR 6364 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
+2023-10-09T10:45:16.621+05:30  INFO 1352 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 1352 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:45:16.625+05:30  INFO 1352 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:45:16.689+05:30  INFO 1352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:45:16.689+05:30  INFO 1352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:45:18.230+05:30  INFO 1352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:45:18.321+05:30  INFO 1352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:45:19.287+05:30  INFO 1352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:45:19.303+05:30  INFO 1352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:45:19.304+05:30  INFO 1352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:45:19.412+05:30  INFO 1352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:45:19.413+05:30  INFO 1352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2722 ms
+2023-10-09T10:45:19.565+05:30 ERROR 1352 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:45:19.610+05:30  INFO 1352 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:45:19.638+05:30  WARN 1352 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:45:19.661+05:30  INFO 1352 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:45:19.700+05:30 ERROR 1352 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
+2023-10-09T10:51:14.083+05:30  INFO 21264 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 21264 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:51:14.086+05:30  INFO 21264 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:51:14.147+05:30  INFO 21264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:51:14.147+05:30  INFO 21264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:51:15.501+05:30  INFO 21264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:51:15.577+05:30  INFO 21264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:51:16.343+05:30  INFO 21264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:51:16.358+05:30  INFO 21264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:51:16.358+05:30  INFO 21264 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:51:16.445+05:30  INFO 21264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:51:16.445+05:30  INFO 21264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2297 ms
+2023-10-09T10:51:16.560+05:30 ERROR 21264 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:51:16.595+05:30  INFO 21264 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:51:16.616+05:30  WARN 21264 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:51:16.633+05:30  INFO 21264 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:51:16.664+05:30 ERROR 21264 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
+2023-10-09T10:51:31.160+05:30  INFO 1084 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 1084 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:51:31.162+05:30  INFO 1084 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:51:31.214+05:30  INFO 1084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:51:31.215+05:30  INFO 1084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:51:32.333+05:30  INFO 1084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:51:32.398+05:30  INFO 1084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:51:33.046+05:30  INFO 1084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:51:33.056+05:30  INFO 1084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:51:33.056+05:30  INFO 1084 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:51:33.131+05:30  INFO 1084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:51:33.132+05:30  INFO 1084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1917 ms
+2023-10-09T10:51:33.243+05:30 ERROR 1084 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:51:33.271+05:30  INFO 1084 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:51:33.284+05:30  WARN 1084 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:51:33.305+05:30  INFO 1084 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:51:33.333+05:30 ERROR 1084 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
+2023-10-09T10:51:44.271+05:30  INFO 15940 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 15940 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:51:44.275+05:30  INFO 15940 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:51:44.329+05:30  INFO 15940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:51:44.329+05:30  INFO 15940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:51:45.524+05:30  INFO 15940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:51:45.594+05:30  INFO 15940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:51:46.284+05:30  INFO 15940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:51:46.297+05:30  INFO 15940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:51:46.298+05:30  INFO 15940 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:51:46.375+05:30  INFO 15940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:51:46.375+05:30  INFO 15940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2045 ms
+2023-10-09T10:51:46.487+05:30 ERROR 15940 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:51:46.514+05:30  INFO 15940 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:51:46.528+05:30  WARN 15940 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:51:46.545+05:30  INFO 15940 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:51:46.573+05:30 ERROR 15940 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
+2023-10-09T10:51:53.632+05:30  INFO 18572 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 18572 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:51:53.635+05:30  INFO 18572 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:51:53.692+05:30  INFO 18572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:51:53.692+05:30  INFO 18572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:51:54.872+05:30  INFO 18572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:51:54.937+05:30  INFO 18572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:51:55.683+05:30  INFO 18572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:51:55.695+05:30  INFO 18572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:51:55.696+05:30  INFO 18572 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:51:55.787+05:30  INFO 18572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:51:55.787+05:30  INFO 18572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2094 ms
+2023-10-09T10:51:55.926+05:30 ERROR 18572 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:51:55.960+05:30  INFO 18572 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:51:55.975+05:30  WARN 18572 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:51:55.996+05:30  INFO 18572 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:51:56.028+05:30 ERROR 18572 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
+2023-10-09T10:52:34.117+05:30  INFO 21912 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 21912 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:52:34.120+05:30  INFO 21912 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:52:34.185+05:30  INFO 21912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:52:34.185+05:30  INFO 21912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:52:35.474+05:30  INFO 21912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:52:35.561+05:30  INFO 21912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:52:36.319+05:30  INFO 21912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:52:36.332+05:30  INFO 21912 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:52:36.332+05:30  INFO 21912 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:52:36.434+05:30  INFO 21912 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:52:36.435+05:30  INFO 21912 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2248 ms
+2023-10-09T10:52:36.575+05:30 ERROR 21912 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:52:36.609+05:30  INFO 21912 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:52:36.624+05:30  WARN 21912 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:52:36.641+05:30  INFO 21912 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:52:36.676+05:30 ERROR 21912 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
+2023-10-09T10:53:35.478+05:30  INFO 21880 --- [restartedMain] c.a.healthinsurance.EcomApplication      : Starting EcomApplication using Java 17.0.5 with PID 21880 (C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes started by NITHYA LAKSHMI .M in C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main)
+2023-10-09T10:53:35.481+05:30  INFO 21880 --- [restartedMain] c.a.healthinsurance.EcomApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-10-09T10:53:35.539+05:30  INFO 21880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-09T10:53:35.540+05:30  INFO 21880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-09T10:53:36.921+05:30  INFO 21880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-09T10:53:36.999+05:30  INFO 21880 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2023-10-09T10:53:37.820+05:30  INFO 21880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-10-09T10:53:37.841+05:30  INFO 21880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09T10:53:37.841+05:30  INFO 21880 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-09T10:53:37.945+05:30  INFO 21880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09T10:53:37.946+05:30  INFO 21880 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2406 ms
+2023-10-09T10:53:38.079+05:30 ERROR 21880 --- [restartedMain] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\NITHYA LAKSHMI .M\OneDrive\nithyaproject\eecom-main\ecom-main\target\classes\com\accessdenied\healthinsurance\config\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-10-09T10:53:38.114+05:30  INFO 21880 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09T10:53:38.132+05:30  WARN 21880 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-10-09T10:53:38.150+05:30  INFO 21880 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-09T10:53:38.182+05:30 ERROR 21880 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.accessdenied.healthinsurance.config.JwtAuthenticationFilter required a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.accessdenied.healthinusrance.util.JwtUtil' in your configuration.
+
